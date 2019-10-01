@@ -15,9 +15,6 @@ public class YandexTests extends TestBase {
         app.market().waiting();
 
         app.market().getProduct(0);
-
-        app.market().waiting();
-
         app.navigate().back();
         app.market().deleteMaker("Dreamies");
         app.market().chooseMaker("Мнямс");
