@@ -1,5 +1,4 @@
 import io.qameta.allure.Step;
-import org.junit.rules.TestWatcher;
 import org.openqa.selenium.*;
 
 import static junit.framework.TestCase.assertTrue;
